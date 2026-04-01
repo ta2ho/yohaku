@@ -3,96 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>余白計画 | 専門職の資産防衛</title>
+    <title>YOHAKU PROJECT | 専門職の人生に、余白を。</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap');
+        body { font-family: 'Noto Sans JP', sans-serif; }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-900 leading-relaxed antialiased font-sans">
+<body class="bg-white text-slate-900 antialiased">
 
-    <nav class="p-4 md:p-6 max-w-5xl mx-auto flex justify-between items-center border-b border-slate-100 bg-white/70 backdrop-blur-sm shadow-sm sticky top-0 z-50">
-        <div class="flex items-center gap-4">
-            <div class="w-12 h-12 md:w-16 md:h-16 rounded-full border-4 border-white shadow-md overflow-hidden bg-emerald-50">
-                <img src="https://r.jina.ai/i/e11f18546194488b835d0a6534241ca6" alt="専門家あわい" class="w-full h-full object-cover">
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="https://r.jina.ai/i/e11f18546194488b835d0a6534241ca6" class="w-10 h-10 rounded-full object-cover shadow-sm">
+                <span class="font-black text-xl tracking-tighter italic">YOHAKU_PROJECT</span>
             </div>
-            <div>
-                <div class="font-black text-xl md:text-2xl italic tracking-tighter text-slate-950 leading-none uppercase">YOHAKU_PROJECT</div>
-                <div class="text-[9px] font-bold text-emerald-600 tracking-widest uppercase flex gap-1 mt-1">
-                    <span>RN</span> / <span>FP</span> / <span>SMP</span>
-                </div>
+            <div class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-500">
+                <a href="#concept" class="hover:text-emerald-600 transition">Concept</a>
+                <a href="#services" class="hover:text-emerald-600 transition">Services</a>
+                <a href="#journal" class="hover:text-emerald-600 transition">Journal</a>
+                <a href="#contact" class="bg-slate-900 text-white px-4 py-2 rounded-full hover:bg-emerald-600 transition">Contact</a>
             </div>
-        </div>
-        <div class="hidden md:flex space-x-6 text-sm font-bold text-slate-400">
-            <span>Finance</span><span>Aesthetic</span><span>Life</span>
         </div>
     </nav>
 
-    <main class="max-w-2xl mx-auto px-6 py-12 md:py-20">
-        <header class="mb-12">
-            <div class="inline-block bg-emerald-600 text-white text-[10px] font-bold px-3 py-1 rounded-full mb-4 tracking-widest uppercase">Finance Essay #01</div>
-            <h1 class="text-3xl md:text-4xl font-black mb-6 leading-tight text-slate-900">
-                15時に入室、翌朝にはいなかった45歳。<br class="hidden md:block">中学生の姉弟に「保険はいらない」と誰が言えるのか。
+    <section class="pt-40 pb-20 px-6 bg-slate-50">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-emerald-600 font-bold tracking-widest text-sm mb-4 uppercase italic">RN × FP × SMP</h2>
+            <h1 class="text-4xl md:text-6xl font-black mb-8 leading-tight text-slate-900">
+                専門職の人生に、<br><span class="text-emerald-600 italic text-5xl md:text-7xl">「余白」</span>のデザインを。
             </h1>
-            <p class="text-slate-400 text-[10px] font-bold tracking-[0.2em] uppercase">Published: 2026.04.02 / Written by AWAI</p>
-        </header>
-
-        <article class="prose prose-slate max-w-none">
-            <p class="mb-8 font-bold text-lg text-slate-800 leading-loose">
-                それは、ある日の午後15時のことでした。<br>
-                45歳の男性が、くも膜下出血でICUに運び込まれてきました。
+            <p class="text-slate-500 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
+                救急現場の死生観と、金融のロジック。相反する二つの視点から、<br class="hidden md:block">
+                あなたが「本当に守りたいもの」に、潤沢な時間と資金を。
             </p>
-            <p class="mb-6">待合室には、まだ幼さの残る中3の長女と、中1の長男。昨日まで当たり前に「いってらっしゃい」と言っていた父親が、今は機械に繋がれ、言葉を発することもない。</p>
-            <p class="mb-6">処置の甲斐なく、私が翌朝出勤した時には、もうそのベッドは空になっていました。</p>
-
-            <blockquote class="border-l-4 border-emerald-500 pl-6 my-10 italic text-slate-600 bg-emerald-50 p-6 rounded-lg shadow-sm">
-                「お父さん、死んじゃったの？」
-            </blockquote>
-
-            <p class="mb-12">
-                泣きじゃくる姉弟の姿を前にして、私はネットに溢れる「保険不要論」を、ただの綺麗事だと確信しました。確率は低くても、起きてしまえばその家族にとっては100%の絶望。中学生の二人の前で、「確率は数%だから備えなくていい」なんて、誰が言えるでしょうか。
-            </p>
-
-            <div class="bg-white p-8 border border-slate-100 rounded-3xl my-12 shadow-xl ring-1 ring-slate-50">
-                <h3 class="font-black mb-6 text-emerald-800 text-xl italic tracking-tight">専門職が「本当に」持つべき備え</h3>
-                <ul class="space-y-4 text-sm md:text-base text-slate-600 list-none pl-0 font-medium">
-                    <li class="flex gap-4 items-center">
-                        <span class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center shrink-0 font-bold italic">1</span>
-                        <span><strong>遺族年金を逆算した死亡保障:</strong> 生活を支える「掛け捨て」で十分。</span>
-                    </li>
-                    <li class="flex gap-4 items-center">
-                        <span class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center shrink-0 font-bold italic">2</span>
-                        <span><strong>就業不能への備え:</strong> 働けないリスクが専門職最大の盲点。</span>
-                    </li>
-                    <li class="flex gap-4 items-center">
-                        <span class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center shrink-0 font-bold italic">3</span>
-                        <span><strong>余剰資金は新NISAへ:</strong> 自分で未来の現金を増やす。</span>
-                    </li>
-                </ul>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#services" class="bg-emerald-600 text-white font-bold py-4 px-10 rounded-full shadow-lg shadow-emerald-600/20 hover:scale-105 transition">サービスを見る</a>
+                <a href="#journal" class="bg-white border border-slate-200 text-slate-600 font-bold py-4 px-10 rounded-full hover:bg-slate-50 transition">最新のエッセイを読む</a>
             </div>
+        </div>
+    </section>
 
-            <div class="bg-slate-900 p-8 md:p-12 rounded-[2.5rem] text-white text-center shadow-2xl mt-20">
-                <h4 class="text-2xl font-black mb-4 italic text-emerald-400 uppercase tracking-tighter">Next Action</h4>
-                <p class="text-sm opacity-60 mb-8 leading-relaxed">あなたが今払っている保険料を最適化し、月3万円の「余白」を作りましょう。</p>
-                <a href="#" class="inline-block w-full max-w-sm bg-emerald-500 text-slate-900 font-black py-5 rounded-2xl shadow-lg transition hover:scale-105 active:scale-95">
-                    防御を固める（証券口座開設）
-                </a>
+    <section id="services" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h3 class="text-2xl font-black border-b-4 border-emerald-100 inline-block pb-2">Business Domains</h3>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl transition">
+                <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center font-black mb-6 italic text-xl">RN</div>
+                <h4 class="text-xl font-bold mb-4 italic">Medical Wellness</h4>
+                <p class="text-sm text-slate-500 leading-relaxed italic">救急・ICUでの10年の経験を基に、現場に寄り添う医療コンサルティングと、働く人の健康を守るウェルネス支援を提供します。</p>
             </div>
-        </article>
+            <div class="p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl transition">
+                <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center font-black mb-6 italic text-xl">FP</div>
+                <h4 class="text-xl font-bold mb-4 italic">Asset Defense</h4>
+                <p class="text-sm text-slate-500 leading-relaxed italic">独立系FPとして、過剰な保険を削り、新NISA等を活用した効率的な資産形成を提案。専門職のための「防御と攻め」を設計します。</p>
+            </div>
+            <div class="p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl transition">
+                <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center font-black mb-6 italic text-xl">SMP</div>
+                <h4 class="text-xl font-bold mb-4 italic">Space Management</h4>
+                <p class="text-sm text-slate-500 leading-relaxed italic">空間を経営資源として捉え、心地よさと機能性を両立させた「空間経営」の視点から、ビジネスの持続可能性をデザインします。</p>
+            </div>
+        </div>
+    </section>
 
-        <section class="mt-32 pt-16 border-t border-slate-200">
-            <div class="flex flex-col md:flex-row items-center gap-8 bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
-                <img src="https://r.jina.ai/i/e11f18546194488b835d0a6534241ca6" alt="あわい" class="w-24 h-24 rounded-full shadow-lg border-4 border-emerald-50 object-cover">
-                <div class="text-center md:text-left">
-                    <h3 class="font-black text-xl mb-2 italic text-slate-950 uppercase">Awai / あわい</h3>
-                    <p class="text-xs text-slate-500 leading-relaxed max-w-md font-medium italic">
-                        救急・ICUで10年。独立系FPとして「人生の余白」をデザイン。
-                    </p>
+    <section id="journal" class="py-24 px-6 bg-slate-950 text-white rounded-[3rem] mx-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-2xl font-black border-b-4 border-emerald-500 inline-block pb-2">Selected Journal</h3>
+            </div>
+            <a href="#" class="group block bg-white/5 p-8 rounded-3xl border border-white/10 hover:bg-white/10 transition">
+                <div class="flex items-center gap-4 text-emerald-400 text-[10px] font-bold tracking-widest uppercase mb-4 italic">
+                    <span class="bg-emerald-400/20 px-2 py-1 rounded">Finance #01</span>
+                    <span>2026.04.02</span>
                 </div>
-            </div>
-        </section>
+                <h4 class="text-2xl md:text-3xl font-black mb-6 group-hover:text-emerald-400 transition">15時に入室、翌朝にはいなかった45歳。中学生の姉弟に「保険はいらない」と誰が言えるのか。</h4>
+                <p class="text-slate-400 text-sm leading-relaxed mb-6 italic">泣きじゃくる姉弟の姿を前にして、私はネットに溢れる「保険不要論」を、ただの綺麗事だと確信しました。確率は低くても、起きてしまえばその家族にとっては100%の絶望...</p>
+                <span class="text-emerald-400 font-bold text-xs uppercase tracking-widest flex items-center gap-2">
+                    Read More <span class="group-hover:translate-x-2 transition">→</span>
+                </span>
+            </a>
+        </div>
+    </section>
 
-        <footer class="py-20 text-center">
-            <p class="text-[10px] text-slate-300 uppercase tracking-[0.5em] font-bold italic">&copy; 2026 YOHAKU PROJECT.</p>
-        </footer>
-    </main>
+    <footer id="contact" class="py-32 px-6 text-center">
+        <div class="max-w-2xl mx-auto border-t border-slate-100 pt-16">
+            <img src="https://r.jina.ai/i/e11f18546194488b835d0a6534241ca6" class="w-20 h-20 rounded-full mx-auto mb-8 shadow-lg grayscale hover:grayscale-0 transition duration-500">
+            <h3 class="text-2xl font-black italic mb-2 tracking-tighter">YOHAKU_PROJECT</h3>
+            <p class="text-xs text-slate-400 uppercase tracking-[0.5em] mb-12 italic italic">Grounded in Fukuoka. Designed by AI Collaborator.</p>
+            <div class="flex justify-center gap-6 text-xs font-bold text-slate-400 uppercase tracking-widest italic">
+                <a href="#" class="hover:text-emerald-600 transition italic">Instagram</a>
+                <a href="#" class="hover:text-emerald-600 transition italic">Threads</a>
+                <a href="#" class="hover:text-emerald-600 transition italic">Email</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
